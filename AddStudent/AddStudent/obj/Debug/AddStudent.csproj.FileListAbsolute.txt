@@ -1,0 +1,113 @@
+D:\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.exe.config
+D:\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.exe
+D:\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.pdb
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csprojAssemblyReference.cache
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Form1.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Properties.Resources.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.GenerateResource.cache
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.CoreCompileInputs.cache
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.exe
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.pdb
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddSv.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Login.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.UpdateDeteleStudent.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.StudentListForm.resources
+D:\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Register.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.exe.config
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.exe
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\AddStudent.pdb
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.Doc.dll
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.License.dll
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.Pdf.dll
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Microsoft.mshtml.dll
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.Doc.xml
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.License.xml
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\bin\Debug\Spire.Pdf.xml
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.PrintCourseForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddScoreForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AvgScoreByCourseForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddCourse.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.EditCourse.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Form1.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddSv.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Login.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ManagerStudentForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ManageCourseForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ManageScoreForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Print.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Properties.Resources.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.Register.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.StaticForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.StudentListForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.UpdateDeteleStudent.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.RemoveCourse.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.RemoveScoreForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ResultScoreForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.GenerateResource.cache
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.CoreCompileInputs.cache
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.CopyComplete
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.exe
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.pdb
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.csprojAssemblyReference.cache
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.StaticResultForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ContactForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.EditContactForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.RegisterHumanResourse.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddContactForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.SelectContactForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ContactShowFullList.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.ListStudentCourseForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.AddCourseSemester.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.PrintScore.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.PrintScoreForm.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.CourseStdList.resources
+D:\Nam 2 - HK2\WinForm\AddStudent\AddStudent\obj\Debug\AddStudent.EditHumanForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\AddStudent.exe.config
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\AddStudent.exe
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\AddStudent.pdb
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.Doc.dll
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.License.dll
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.Pdf.dll
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Microsoft.mshtml.dll
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.Doc.xml
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.License.xml
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\bin\Debug\Spire.Pdf.xml
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.csprojAssemblyReference.cache
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AddContactForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ContactForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ContactShowFullList.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.CourseStdList.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.PrintCourseForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.EditContactForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AddCourseSemester.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ListStudentCourseForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.EditHumanForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.RegisterHumanResourse.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.PrintScoreForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.PrintScore.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AddScoreForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AvgScoreByCourseForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AddCourse.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.EditCourse.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.Form1.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.AddSv.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.Login.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ManagerStudentForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ManageCourseForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ManageScoreForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.Print.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.Properties.Resources.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.Register.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.StaticForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.StudentListForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.UpdateDeteleStudent.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.RemoveCourse.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.RemoveScoreForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.ResultScoreForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.StaticResultForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.SelectContactForm.resources
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.GenerateResource.cache
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.CoreCompileInputs.cache
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.csproj.CopyComplete
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.exe
+D:\Nam 2 - HK2\WinForm\19110356_Nguyễn Thái Hải\AddStudent\AddStudent\obj\Debug\AddStudent.pdb

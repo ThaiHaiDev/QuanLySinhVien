@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AddStudent.AddSv" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAIABACAAEJACAgmAFgASEIAAEAFABAAAAQJAiAA=</HashCode>
+      <FileName>ChucNang\AddSv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ManagerStudentForm" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAApABECBAolACCAiCBgASGIgCEABAABACAQJAiQA=</HashCode>
+      <FileName>ChucNang\ManagerStudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.StaticForm" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACQBCAiEBIAKCCAAAICCEIAAABAAgAAAAAAAAo=</HashCode>
+      <FileName>ChucNang\StaticForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.StudentListForm" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhgAACAAAFAAAACABAACEAgAAMAAAAAEAAAAAAg=</HashCode>
+      <FileName>ChucNang\StudentListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.UpdateDeteleStudent" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAApAFECFAElACCAigBAISEIECEEBgABACgUJwiAI=</HashCode>
+      <FileName>ChucNang\UpdateDeteleStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Globals" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ClassContactG\Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Group" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAIAAAAAAAAAAAAAEAFAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ClassContactG\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.User" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAEEAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassContactG\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AddContactForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAhEARACAIABAAAAiARgwCEkAIGAACABAAIAAAAAg=</HashCode>
+      <FileName>Contact\AddContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Contact" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAIAAAAAAAAAAAEAACAAAAAAAIRAAAAAAA=</HashCode>
+      <FileName>Contact\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ContactForm" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8wBACAABEWBABpAEAAiAAggGIIBEAECAABAMVQAAACA=</HashCode>
+      <FileName>Contact\ContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ContactShowFullList" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAACAAADAAAACAAIiGAAAAEgAEAAAAAAAIAAA=</HashCode>
+      <FileName>Contact\ContactShowFullList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.EditContactForm" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAhERQACAIIhAAAgCABAgGEEAICAAiABAAIACAAAg=</HashCode>
+      <FileName>Contact\EditContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.SelectContactForm" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAhAAAACAAAAGABAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Contact\SelectContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AddCourse" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAEAABACEBgBkAQACAAAACAAAAAAAACAAEAUBQAgA=</HashCode>
+      <FileName>Course\AddCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AddCourseSemester" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAQgFAAAAjBQgACIAAAIAACKAAAAQFAAAA=</HashCode>
+      <FileName>Course\AddCourseSemester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Course" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgABAAAACAAACAAAAAAAAAFAAAAgAIAAAAAAAAAAIA=</HashCode>
+      <FileName>Course\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.CourseStdList" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAFAAAACAQAgGACAAAAAAAAAQAQBEAAA=</HashCode>
+      <FileName>Course\CourseStdList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.EditCourse" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAMQAAASBBghAAQACAAAACAAAAgAAACAAAQQBQAAE=</HashCode>
+      <FileName>Course\EditCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ListStudentCourseForm" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAgFAAAACFAAACgAAAAAAAEAAAAQBIACA=</HashCode>
+      <FileName>Course\ListStudentCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ManageCourseForm" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgoBEAAADCFBkhkAQgDBAIECgIIAAAAADAACAUBQAgA=</HashCode>
+      <FileName>Course\ManageCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.PrintCourseForm" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAgBAAAACAAAACACggAAAEAAAAAQBEABA=</HashCode>
+      <FileName>Course\PrintCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.RemoveCourse" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAgAAAAACAAAACAAIAAAAAABACAAAAAAA=</HashCode>
+      <FileName>Course\RemoveCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AddAcount" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoginData\AddAcount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.DataBase" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAQAAAAAQAAAAAAAAABAAAAA=</HashCode>
+      <FileName>LoginData\DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Form1" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AcAAHQCBAGoAEAAhCGDQAAgGACIABJIEUQIEgAJAIJA=</HashCode>
+      <FileName>LoginData\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Login" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAQECAAADAAAACAAAAWAAAAAAAAAQAAAgJBAQA=</HashCode>
+      <FileName>LoginData\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Register" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEBECAAABAAAACABAAGAACAEAAAAQAAAgIAAAA=</HashCode>
+      <FileName>LoginData\Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.RegisterHumanResourse" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAgEAAACQAoDAAAACAAAAGAAEICAgAAQAAAARACQg=</HashCode>
+      <FileName>LoginData\RegisterHumanResourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Student" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAhAIQAQAggEBEACIAAAAggEAAAIQAAAA=</HashCode>
+      <FileName>LoginData\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Print" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhgBALAAAHACAQCAIRCCgBigBAAAAEAgAQAQgAg=</HashCode>
+      <FileName>PrintSaveWord\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.SaveDocx" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>PrintSaveWord\SaveDocx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.PrintScoreForm" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAACAAgFAAAACJAAAGAiAgAAAEQAAAQQBEABA=</HashCode>
+      <FileName>Score\PrintScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Program" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AddScoreForm" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAACAAgFEgAAiIgAACQAAAAAAAAAAIESBQIAE=</HashCode>
+      <FileName>Score\AddScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.AvgScoreByCourseForm" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACCAABAAAACIBAACAAAAAEAAAAAAAQBAAAA=</HashCode>
+      <FileName>Score\AvgScoreByCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ManageScoreForm" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAYCAECAAgFGwAJiIgAACYAAAAAAAAAAoFQBQIAM=</HashCode>
+      <FileName>Score\ManageScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.PrintScore" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACIBAACACAAAAAAAAAQAQBEAAA=</HashCode>
+      <FileName>Score\PrintScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.RemoveScoreForm" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAECAAABAAQAiIBAACAAAAAAAAAAAAAQBIAAA=</HashCode>
+      <FileName>Score\RemoveScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Result" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Score\Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.ResultScoreForm" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAfAIAAACAAkDAACAiIAAAGAAACAAQADEACAQBAgAA=</HashCode>
+      <FileName>Score\ResultScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Score" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAEQIEQABCAAAAAQAAAACA=</HashCode>
+      <FileName>Score\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.StaticResultForm" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAERAACAAABAAAACIAAICAAAEAAAAAAgAAQBAAAA=</HashCode>
+      <FileName>Score\StaticResultForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pBRA6LGAggACghATQQIHkIAQOQUEAMA+QISDgDAiovA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStudent.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

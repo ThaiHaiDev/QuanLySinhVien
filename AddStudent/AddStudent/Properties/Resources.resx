@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bandicam 2021-05-16 14-45-05-670" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 14-45-05-670.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2196166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2196166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Delete-icon (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Delete-icon (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-manage-score" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-manage-score.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit_icon_(the_Noun_Project_30184)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_icon_(the_Noun_Project_30184).svg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Add-icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Add-icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clothing-Button-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clothing-Button-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete-list_318-9871" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-list_318-9871.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216996" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216996.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student-icon-graduation-with-mortar-board-vector-19676166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student-icon-graduation-with-mortar-board-vector-19676166.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-17 08-56-31-025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-17 08-56-31-025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-hamburger-button-computer-icons-menu-5b58fce1236532.570355131532558561145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-hamburger-button-computer-icons-menu-5b58fce1236532.570355131532558561145.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-vector-marketing-statics-icon-png-image_926347" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-vector-marketing-statics-icon-png-image_926347.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Delete-icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Delete-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-2148821699" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-2148821699.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 17-18-31-355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 17-18-31-355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scoring-chart-board-presentation-chart-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scoring-chart-board-presentation-chart-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 14-42-27-953" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 14-42-27-953.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-17 09-11-14-647" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-17 09-11-14-647.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autocad-architecture-get-it-now-panel-background-image-1920x414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\autocad-architecture-get-it-now-panel-background-image-1920x414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Remove-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Remove-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b33.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-First-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-First-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216995" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216995.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icono-capacitacion-png-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icono-capacitacion-png-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash-can-rubbish-bin-flat-260nw-11652711011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash-can-rubbish-bin-flat-260nw-11652711011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash-can-rubbish-bin-flat-260nw-11652711012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash-can-rubbish-bin-flat-260nw-11652711012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Next-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Next-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216991.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2727129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2727129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-17 08-56-31-0252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-17 08-56-31-0252.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Add-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Add-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-12639249914" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-12639249914.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 23-48-09-4631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 23-48-09-4631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weaknesses_report_clipboard_cross_weaknesses-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Weaknesses_report_clipboard_cross_weaknesses-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 17-26-24-716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 17-26-24-716.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-12639249912" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-12639249912.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b316.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student_add-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student_add-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button-round-end-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button-round-end-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="style-icons-system-intro-principles-intuitive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\style-icons-system-intro-principles-intuitive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Add-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Add-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-1263924991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-1263924991.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b38.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit_icon_(the_Noun_Project_30184)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_icon_(the_Noun_Project_30184).svg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Last-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Last-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-software-update-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-software-update-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star-rating-credit-score-icon-260nw-1726501390" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-rating-credit-score-icon-260nw-1726501390.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-17 08-56-31-0251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-17 08-56-31-0251.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216993" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216993.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="course-folder-edit-icon-outline-style-vector-30268672" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\course-folder-edit-icon-outline-style-vector-30268672.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="score-5-133904" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\score-5-133904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-12639249913" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-12639249913.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216994" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216994.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit_icon_(the_Noun_Project_30184).svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_icon_(the_Noun_Project_30184).svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 23-49-35-6221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 23-49-35-6221.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Add-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Add-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="109861283-student-icon-education-concept-icon-with-settings-sign-student-icon-and-customize-setup-manage-proce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\109861283-student-icon-education-concept-icon-with-settings-sign-student-icon-and-customize-setup-manage-proce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-12639249915" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-12639249915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 23-53-09-384" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 23-53-09-384.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Delete-icon (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Delete-icon (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="online-course-line-icon-e-learning-and-education-vector-20224492" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-course-line-icon-e-learning-and-education-vector-20224492.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 23-49-35-622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 23-49-35-622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="88288-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\88288-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-vector-editable-eps10-260nw-12639249911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-vector-editable-eps10-260nw-12639249911.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy-space-blue-circuits-digital-background_23-21488216992" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy-space-blue-circuits-digital-background_23-21488216992.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3982cc208873792337b423d9e7714b36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3982cc208873792337b423d9e7714b36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-round-glossy-login-icon-vector-2976248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-round-glossy-login-icon-vector-2976248.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button-Previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash-can-rubbish-bin-flat-260nw-1165271101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash-can-rubbish-bin-flat-260nw-1165271101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 23-48-09-463" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 23-48-09-463.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 17-20-37-821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 17-20-37-821.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandicam 2021-05-16 17-16-23-350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandicam 2021-05-16 17-16-23-350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

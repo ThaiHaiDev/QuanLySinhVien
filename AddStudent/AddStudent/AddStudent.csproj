@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57B19B4D-7680-47E9-8AAF-B2C6E05A9DC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AddStudent</RootNamespace>
+    <AssemblyName>AddStudent</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=9.3.6.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.3.6\lib\net40\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.8.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.3.6\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=7.3.1.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.3.6\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contact\AddContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\AddContactForm.Designer.cs">
+      <DependentUpon>AddContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\Contact.cs" />
+    <Compile Include="Contact\ContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\ContactForm.Designer.cs">
+      <DependentUpon>ContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\ContactShowFullList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\ContactShowFullList.Designer.cs">
+      <DependentUpon>ContactShowFullList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\CourseStdList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\CourseStdList.Designer.cs">
+      <DependentUpon>CourseStdList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\PrintCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\PrintCourseForm.Designer.cs">
+      <DependentUpon>PrintCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\EditContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\EditContactForm.Designer.cs">
+      <DependentUpon>EditContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassContactG\Globals.cs" />
+    <Compile Include="ClassContactG\Group.cs" />
+    <Compile Include="Course\AddCourseSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\AddCourseSemester.Designer.cs">
+      <DependentUpon>AddCourseSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\ListStudentCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\ListStudentCourseForm.Designer.cs">
+      <DependentUpon>ListStudentCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginData\EditHumanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginData\EditHumanForm.Designer.cs">
+      <DependentUpon>EditHumanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginData\RegisterHumanResourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginData\RegisterHumanResourse.Designer.cs">
+      <DependentUpon>RegisterHumanResourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\PrintScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\PrintScoreForm.Designer.cs">
+      <DependentUpon>PrintScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\PrintScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\PrintScore.Designer.cs">
+      <DependentUpon>PrintScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\Result.cs" />
+    <Compile Include="Score\AddScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\AddScoreForm.Designer.cs">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\AvgScoreByCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\AvgScoreByCourseForm.Designer.cs">
+      <DependentUpon>AvgScoreByCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\AddCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\AddCourse.Designer.cs">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\EditCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\EditCourse.Designer.cs">
+      <DependentUpon>EditCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Course.cs" />
+    <Compile Include="LoginData\AddAcount.cs" />
+    <Compile Include="LoginData\DataBase.cs" />
+    <Compile Include="LoginData\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginData\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNang\AddSv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang\AddSv.Designer.cs">
+      <DependentUpon>AddSv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginData\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginData\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNang\ManagerStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang\ManagerStudentForm.Designer.cs">
+      <DependentUpon>ManagerStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\ManageCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\ManageCourseForm.Designer.cs">
+      <DependentUpon>ManageCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\ManageScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\ManageScoreForm.Designer.cs">
+      <DependentUpon>ManageScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSaveWord\Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSaveWord\Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LoginData\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginData\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSaveWord\SaveDocx.cs" />
+    <Compile Include="ChucNang\StaticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang\StaticForm.Designer.cs">
+      <DependentUpon>StaticForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginData\Student.cs" />
+    <Compile Include="ChucNang\StudentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang\StudentListForm.Designer.cs">
+      <DependentUpon>StudentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNang\UpdateDeteleStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang\UpdateDeteleStudent.Designer.cs">
+      <DependentUpon>UpdateDeteleStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course\RemoveCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\RemoveCourse.Designer.cs">
+      <DependentUpon>RemoveCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\RemoveScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\RemoveScoreForm.Designer.cs">
+      <DependentUpon>RemoveScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\ResultScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\ResultScoreForm.Designer.cs">
+      <DependentUpon>ResultScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\Score.cs" />
+    <Compile Include="Score\StaticResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\StaticResultForm.Designer.cs">
+      <DependentUpon>StaticResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\SelectContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\SelectContactForm.Designer.cs">
+      <DependentUpon>SelectContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassContactG\User.cs" />
+    <EmbeddedResource Include="Contact\AddContactForm.resx">
+      <DependentUpon>AddContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\ContactForm.resx">
+      <DependentUpon>ContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\ContactShowFullList.resx">
+      <DependentUpon>ContactShowFullList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\CourseStdList.resx">
+      <DependentUpon>CourseStdList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\PrintCourseForm.resx">
+      <DependentUpon>PrintCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\EditContactForm.resx">
+      <DependentUpon>EditContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\AddCourseSemester.resx">
+      <DependentUpon>AddCourseSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\ListStudentCourseForm.resx">
+      <DependentUpon>ListStudentCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginData\EditHumanForm.resx">
+      <DependentUpon>EditHumanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginData\RegisterHumanResourse.resx">
+      <DependentUpon>RegisterHumanResourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\PrintScoreForm.resx">
+      <DependentUpon>PrintScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\PrintScore.resx">
+      <DependentUpon>PrintScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\AddScoreForm.resx">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\AvgScoreByCourseForm.resx">
+      <DependentUpon>AvgScoreByCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\AddCourse.resx">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\EditCourse.resx">
+      <DependentUpon>EditCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginData\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucNang\AddSv.resx">
+      <DependentUpon>AddSv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginData\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucNang\ManagerStudentForm.resx">
+      <DependentUpon>ManagerStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\ManageCourseForm.resx">
+      <DependentUpon>ManageCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\ManageScoreForm.resx">
+      <DependentUpon>ManageScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSaveWord\Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="LoginData\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucNang\StaticForm.resx">
+      <DependentUpon>StaticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucNang\StudentListForm.resx">
+      <DependentUpon>StudentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucNang\UpdateDeteleStudent.resx">
+      <DependentUpon>UpdateDeteleStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\RemoveCourse.resx">
+      <DependentUpon>RemoveCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\RemoveScoreForm.resx">
+      <DependentUpon>RemoveScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\ResultScoreForm.resx">
+      <DependentUpon>ResultScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\StaticResultForm.resx">
+      <DependentUpon>StaticResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\SelectContactForm.resx">
+      <DependentUpon>SelectContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 14-42-27-953.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 14-45-05-670.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student-icon-graduation-with-mortar-board-vector-19676166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-course-line-icon-e-learning-and-education-vector-20224492.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\score-5-133904.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2196166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_add-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-marketing-statics-icon-png-image_926347.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88288-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\109861283-student-icon-education-concept-icon-with-settings-sign-student-icon-and-customize-setup-manage-proce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-list_318-9871.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_icon_%28the_Noun_Project_30184%29.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\course-folder-edit-icon-outline-style-vector-30268672.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2727129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weaknesses_report_clipboard_cross_weaknesses-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-manage-score.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\style-icons-system-intro-principles-intuitive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star-rating-credit-score-icon-260nw-1726501390.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scoring-chart-board-presentation-chart-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-1263924991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-12639249911.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-12639249912.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 17-16-23-350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 17-18-31-355.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 17-20-37-821.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-12639249913.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 17-26-24-716.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-hamburger-button-computer-icons-menu-5b58fce1236532.570355131532558561145.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 23-48-09-463.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 23-49-35-622.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 23-49-35-6221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 23-53-09-384.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-2148821699.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-17 08-56-31-025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autocad-architecture-get-it-now-panel-background-image-1920x414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-17 08-56-31-0251.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-17 08-56-31-0252.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216992.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216993.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216994.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216995.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-16 23-48-09-4631.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam 2021-05-17 09-11-14-647.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can-rubbish-bin-flat-260nw-1165271101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can-rubbish-bin-flat-260nw-11652711011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can-rubbish-bin-flat-260nw-11652711012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clothing-Button-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Remove-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-round-end-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-12639249914.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-capacitacion-png-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_icon_%28the_Noun_Project_30184%29.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-First-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Last-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Next-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Previous-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-software-update-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_icon_%28the_Noun_Project_30184%29.svg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-vector-editable-eps10-260nw-12639249915.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216996.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-space-blue-circuits-digital-background_23-21488216997.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b311.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b312.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b313.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b314.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b315.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3982cc208873792337b423d9e7714b316.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-round-glossy-login-icon-vector-2976248.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
